@@ -1,0 +1,191 @@
+/* fonts */
+@font-face {
+  font-family: Ubuntu;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+body, select, input, textarea, .serif {
+  font-family: Ubuntu;
+}
+tt, code, pre, .monospace {
+  font-family: Ubuntu;
+}
+.sans {
+  font-family: Ubuntu;
+}
+.small {
+  font-size: small;
+}
+.big {
+  font-size: large;
+}
+.huge:first-letter {
+  font-size: 200%;
+  float: left;
+}
+/* colors */
+body {
+  background: #bfffff;
+  color: black;
+}
+Select, input, textarea, .plain {
+  background: #f5edc9;
+  color: black;
+}
+.reverse {
+  background: black;
+  color: #f5edc9;
+}
+.red {
+  background: red;
+  color: #f5edc9;
+}
+.blue {
+  background: #f5edc9;
+  color: #004ad6;
+}
+/* links */
+:link {
+  color: #30e;
+}
+:visited {
+  color: #909;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* align, margin, indent, padding */
+table, hr {
+  text-align: justify;
+}
+body.mail {
+  text-align: left;
+}
+.mail p {
+  text-indent: 0;
+  margin: 0.6em 0;
+}
+.play p, .hang {
+  text-indent: -2em;
+  margin-left: 2em;
+}
+body {
+  margin: 1em;
+}
+blockquote {
+  margin: 1em 2em;
+}
+dd, .shift {
+  margin-left: 2em;
+}
+ul, ol {
+  padding-left: 2em;
+  padding-right: 0;
+}
+[dir=rtl] ul, [dir=rtl] ol {
+  padding-left: 0;
+  padding-right: 2em;
+}
+.nomargin {
+  margin: 0;
+}
+.loose > dt, .loose > li {
+  margin-top: 0.3em;
+}
+.veryloose > dt, .veryloose > li {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+.noindent, .huge {
+  text-indent: 0;
+}
+.indent {
+  text-indent: 2em;
+}
+.hang .indent, .play .indent {
+  margin-left: 2em;
+  text-indent: 2em;
+}
+.double {
+  text-indent: 4em;
+}
+.triple {
+  text-indent: 6em;
+}
+/* border */
+table, hr {
+  border-style: outset;
+}
+.index > table, .noborder {
+  border-style: none;
+}
+.dot {
+  border-style: dotted;
+}
+header > h2, h3 {
+  text-align: center;
+  margin: 0 0 16px 0;
+}
+header > h4 {
+  text-align: justify;
+  margin: 0;
+}
+header {
+  display: block;
+  margin: 16px auto;
+  width: 90%;
+  padding: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.5rem;
+}
+article > p {
+  text-indent: 1em;
+  text-align: justify;
+}
+cover > img {
+  border: none !important;
+  border-radius: 0.5rem;
+}
+pic {
+  display: block;
+  margin: 16px auto;
+  width: 75%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.5rem;
+}
+pic > img {
+  border: none !important;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+pic > p {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  font-size: 16px;
+  margin: 0;
+}
+list > a > h4 {
+  text-align: center;
+  margin: 0 0 16px 0;
+}
+list > a > p {
+  text-align: justify;
+  margin: 0;
+}
+list {
+  display: block;
+  margin: 16px auto;
+  width: 33%;
+  padding: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.5rem;
+}
+a:hover {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
